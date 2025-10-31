@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#cal
+{
+    position:relative;
+    top:150px;
+    height:570px;
+    width:500px;
+    border:30px solid #003049;
+    border-radius: 15px;;
+    text-align: center;
+    margin-left:500px;
+}
+.buttons1
+{
+    height:70px;
+    width:500px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:#003049;
+}
+.buttons1 button{
+    height:50px;
+    width:100px;
+    background-color:#669bbc ;
+    font-size:20px;
+}
+.buttons2
+{
+    height:70px;
+    width:500px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:#003049;
+}
+.buttons2 button{
+    height:50px;
+    width:100px;
+    background-color:#669bbc ;
+    font-size:20px;
+
+}
+.buttons3
+{
+    height:70px;
+    width:500px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:#003049;
+}
+.buttons3 button{
+    height:50px;
+    width:100px;
+    background-color:#669bbc ;
+    font-size:20px;
+
+}
+.buttons4
+{
+    height:70px;
+    width:500px;
+    display:flex;
+    /* justify-content:space-evenly; */
+    align-items:flex-start;
+    background-color:#003049;
+}
+.buttons4 button{
+    height:50px;
+    width:100px;
+    background-color:#669bbc ;
+    font-size:20px;
+
+}
+.operators1
+{
+    height:70px;
+    width:500px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:#003049;
+}
+.operators1 button{
+    height:50px;
+    width:100px;
+    background-color:#669bbc ;
+    font-size:20px;
+
+}
+.operators2
+{
+    height:70px;
+    width:500px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:#003049;
+}
+.operators2 button{
+    height:50px;
+    width:100px;
+    background-color:#669bbc ;
+    font-size:20px;
+
+}
+.operators3
+{
+    height:70px;
+    width:500px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:#003049;
+}
+.operators3 button{
+    height:50px;
+    width:100px;
+    background-color:#eff2f4 ;
+    font-size:20px;
+
+}

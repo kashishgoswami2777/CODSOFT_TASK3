@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <section id="cal">
+            <div >
+                <input type="text" style="height: 150px;width:500px;background-color:#669bbc ; font-size: 50px; text-align: right;" id="screen":read only/>
+            </div>
+
+            <div class="buttons1">
+                <button onclick="continuous_screen('1')">1</button>
+                <button onclick="continuous_screen('2')">2</button>
+                <button onclick="continuous_screen('3')">3</button>
+            </div>
+
+            <div class="buttons2">
+                <button onclick="continuous_screen('4')">4</button>
+                <button onclick="continuous_screen('5')">5</button>
+                <button onclick="continuous_screen('6')">6</button>
+            </div>
+
+            <div class="buttons3">
+                <button onclick="continuous_screen('7')">7</button>
+                <button onclick="continuous_screen('8')">8</button>
+                <button onclick="continuous_screen('9')">9</button>
+            </div>
+
+            <div class="operators1">
+                <button onclick="continuous_screen('+')">+</button>
+                <button onclick="continuous_screen('0')">0</button>
+                <button onclick="continuous_screen('-')">-</button>
+               
+            </div>
+            <div class="operators2">
+                 <button onclick="continuous_screen('.')" >.</button>
+                 <button onclick="continuous_screen('*')">*</button>
+                <button onclick="continuous_screen('/')">/</button>  
+            </div>
+            <div class="operators3">
+                <button id="screen" onclick="clear_display()">AC</button>
+                <button style="width:247px;" id="screen"  onclick="calculate_screen()" >=</button>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+</body>
+</html>
